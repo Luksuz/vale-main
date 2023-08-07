@@ -354,8 +354,8 @@ function Home() {
                 </p>
                 <Link href="/game-finder-app">
                   <img
-                    src="./GameSearch.png"
-                    alt="game search app image"
+                    src="./contacts-app.png"
+                    alt="contacts app image"
                     width="100%"
                     className="rounded rounded-5"
                   />

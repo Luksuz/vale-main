@@ -18,7 +18,7 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"></link>      
         <title>Luka Minđek</title>
       </Head>
-      <body style={{//background: 'linear-gradient(90deg, #6C3428, #DFA878)',
+      <body style={{background: "rgba(1, 1, 1, 0.2)",
                     color: 'black',
                     fontFamily: "Ubuntu, sans-serif"
                     }}>
