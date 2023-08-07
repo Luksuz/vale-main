@@ -352,7 +352,7 @@ function Home() {
                   You somehow dont have contacts on your phone? Thats where i got you covered!
                   Enjoy your own simple contacts app!
                 </p>
-                <Link href="/game-finder-app">
+                <Link href="https://luxury-contacts.netlify.app">
                   <img
                     src="./contacts-app.png"
                     alt="contacts app image"
