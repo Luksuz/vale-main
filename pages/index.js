@@ -17,6 +17,7 @@ function Home() {
             <img 
               src="../socialsIcons/instagram-icon.png" 
               width="15px" 
+              alt="instagram"
             />
           </a>
           <a href="https://www.facebook.com/profile.php?id=100034365320366">
@@ -24,12 +25,14 @@ function Home() {
               src="../socialsIcons/facebook-icon.jpg"
               width="15px"
               className="m-1"
+              alt="facebook"
             />
           </a>
           <a href="https://www.linkedin.com/in/luka-min%C4%91ek-a46012262/">
             <img 
               src="../socialsIcons/linkedin-icon.png" 
               width="15px" 
+              alt="linkedin"
             />
           </a>
           <a href="https://twitter.com/LuksuzWL">
@@ -37,6 +40,7 @@ function Home() {
               src="../socialsIcons/twitter-icon.png"
               width="15px"
               className="m-1"
+              alt="twitter"
             />
           </a>
           <a href="https://github.com/Luksuz">
@@ -44,6 +48,7 @@ function Home() {
               src="../socialsIcons/github.png" 
               width="15px" 
               className=""
+              alt="github"
             />
           </a>
           <a href="mailto:lukamindjek@gmail.com">
@@ -51,6 +56,7 @@ function Home() {
               src="../socialsIcons/mail.png" 
               width="15px" 
               className="ms-1"
+              alt="mail"
             />
           </a>
         </div>
@@ -62,11 +68,11 @@ function Home() {
         onSelect={(k) => setKey(k)}
         className="display-flex align-items-end justify-content-start"
       >
-        <Tab eventKey="home" title="Home">
+        <Tab eventKey="home" title="Home" color="black">
           <div className="container d-flex flex-column gap-3">
             <div className="row justify-content-center align-items-center">
               <div className="col-12 p-3">
-                <h4>
+                <p>
                 <span className="display-6">H</span>ello! I'm Luka, a self-taught full-stack developer with a
                   passion for coding and problem-solving. I recently completed a
                   Python developer qualification course at Algebra University,
@@ -76,7 +82,7 @@ function Home() {
                   captivating images to bring stories to life. Alongside this
                   major project, I've worked on various mini projects that
                   showcase my versatility and creativity.
-                </h4>
+                </p>
               </div>
             </div>
             <div className="row d-flex justify-content-center align-items-center">
@@ -84,7 +90,7 @@ function Home() {
               <div className="col-8 ">
                 <img
                   className="border border-3 shadow-lg"
-                  src="/Luka.jpeg"
+                  src="/Luka.webp"
                   alt="Luka"
                   width="100%"
                 />
@@ -176,7 +182,7 @@ function Home() {
     <div className="col-12 col-lg-5">
       <img
         className="img-fluid mb-3 shadow-lg"
-        src="/Luka-childhood.jpeg"
+        src="/Luka-childhood.webp"
         alt="Luka's childhood photo"
         width="100%"
       />
@@ -246,7 +252,7 @@ function Home() {
               </div>
               <div className="col-12 pt-5">
               <img 
-                src="/technical-drawing.jpeg" 
+                src="/technical-drawing.webp" 
                 alt="Technical drawing" 
                 width="100%" 
                 className="img-fluid shadow-lg"
@@ -269,7 +275,7 @@ function Home() {
                 </p>
               </div>
               <div className="col-12 col-lg-7 pt-5">
-                <img src="/ElonMusk.jpeg" alt="Elon Musk" width="100%" />
+                <img src="/ElonMusk.webp" alt="Elon Musk" width="100%" />
               </div>
             </div>
           </div>
@@ -287,7 +293,7 @@ function Home() {
 
               <Link href="/quiz-app/">
                 <img
-                  src="./quizz-app.png"
+                  src="./quizz-app.webp"
                   alt="Quizz app image"
                   width="100%"
                   className="rounded rounded-5"
@@ -304,7 +310,7 @@ function Home() {
                 </p>
                 <Link href="/game-finder-app">
                   <img
-                    src="./GameSearch.png"
+                    src="./GameSearch.webp"
                     alt="game search app image"
                     width="100%"
                     className="rounded rounded-5"
@@ -341,7 +347,7 @@ function Home() {
                 </p>
                 <Link href="/weather-app/">
                   <img
-                    src="./weatherFetcher.png"
+                    src="./weather-app.webp"
                     alt="a weather app image"
                     width="100%"
                     className="rounded rounded-5"
@@ -365,7 +371,7 @@ function Home() {
                 </p>
                 <Link href="/quiz-app/">
                   <img
-                    src="./shopping-cart-app.png"
+                    src="./shopping-cart-app.webp"
                     alt="Shopping cart app image"
                     width="100%"
                     className="rounded rounded-5 border border-3"
@@ -389,7 +395,7 @@ function Home() {
                 </p>
                 (click on the image to view my blog)
                 <Link href="https://luka-blog.netlify.app" target="_blank">
-                <img className="shadow-lg" src="/luka-blog.png" width="100%"/>
+                <img className="shadow-lg" src="/luka-blog.webp" width="100%" alt="blog"/>
               </Link>
                 </div>
                 
