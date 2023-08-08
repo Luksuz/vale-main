@@ -304,8 +304,10 @@ function Home() {
           <div className="col-12">
                 <h1>Ai stories generator app</h1>
                 <p>
-                  A beginner quizz project; test your knowledge in this 10
-                  random OpenTriviaDatabase questions!
+                This app is an interactive storytelling platform that allows users to create segmented stories. 
+                By providing an initial prompt, users can generate subsequent parts of the story, each accompanied by corresponding images. 
+                Features include the ability to influence the story's direction, add random events, and reset the story. 
+                The app offers a unique blend of automated generation and user control, creating an engaging and personalized storytelling experience.
                 </p>
               </div>
               <Link href="https://aistories.netlify.app">
@@ -317,6 +319,7 @@ function Home() {
                 />
               </Link>
             </div>
+            <hr></hr>
             <div className="row">
               <div className="col-12">
                 <h1>A quizz app</h1>
@@ -404,7 +407,7 @@ function Home() {
                   "Yeah, I think so too, but I'm not sure, wish there was an app
                   that we all have so we could track it easier".
                 </p>
-                <Link href="/quiz-app/">
+                <Link href="https://shopping-cart-to-buy.netlify.app">
                   <img
                     src="./shopping-cart-app.webp"
                     alt="Shopping cart app image"
