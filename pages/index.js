@@ -178,9 +178,10 @@ function Home() {
         className="img-fluid mb-3 shadow-lg"
         src="/Luka-childhood.jpeg"
         alt="Luka's childhood photo"
+        width="100%"
       />
     </div>
-    <div className="col-12 col-md-7">
+    <div className="col-12 col-lg-7">
       <h1>Early life and Background</h1>
       <p className="pt-4">
                 Born and raised in the picturesque town of Sveti Ilija, near
@@ -213,7 +214,7 @@ function Home() {
             </div>
             <hr></hr>
             <div className="row">
-              <div className="col-12 col-md-5 ">
+              <div className="col-12">
                 <h1>Professional Journey and Accomplishments</h1>
                 <p className="pt-4">
                   My professional journey has been a testament to the power of
@@ -243,7 +244,7 @@ function Home() {
                   Python development.
                 </p>
               </div>
-              <div className="col-12 col-md-7 pt-5">
+              <div className="col-12 pt-5">
               <img 
                 src="/technical-drawing.jpeg" 
                 alt="Technical drawing" 
@@ -254,55 +255,22 @@ function Home() {
             </div>
             <hr />
             <div className="row">
-              <div className="col-12">
+              <div className="col-12 col-lg-5">
                 <h1>Values and Vision</h1>
                 <p className="pt-4">
-                  In both my personal and professional life, I hold a set of
-                  core values that guide my actions, decisions, and interactions
-                  with others. These values have become the foundation of my
-                  journey, propelling me toward my vision for the future. First
-                  and foremost, I value having a clear and ambitious vision. A
-                  goal-driven vision serves as a compass, guiding me through
-                  challenges and opportunities. It provides a sense of purpose
-                  and direction, motivating me to stay focused on my aspirations
-                  even during uncertain times. Discipline is another value I
-                  deeply cherish. It is the driving force that helps me stay
-                  consistent in my efforts, ensuring that I make progress even
-                  when faced with obstacles or distractions. Discipline empowers
-                  me to manage my time efficiently, prioritize tasks, and
-                  maintain a strong work ethic. Continuous learning is a
-                  cornerstone of my personal and professional growth. Embracing
-                  a never-ending learning mindset allows me to stay adaptable,
-                  relevant, and informed in an ever-evolving world. I am open to
-                  acquiring new knowledge, skills, and perspectives, which
-                  fosters my ability to tackle complex challenges and cultivate
-                  innovation. Alongside my personal values, I find tremendous
-                  support and inspiration from my family. Family support is a
-                  vital pillar in my journey, providing a strong emotional
-                  foundation and unwavering encouragement. The love and
-                  understanding from my loved ones nurture my drive to succeed,
-                  and their belief in me fuels my determination. Looking into
-                  the future, my vision is centered around contributing to
-                  humanity and making a positive impact through technology
-                  research, particularly in the field of artificial intelligence
-                  (AI). My passion lies in exploring the frontiers of AI,
-                  harnessing its potential to address real-world problems,
-                  improve lives, and reshape industries for the better. The
-                  prospect of being part of groundbreaking advancements in AI
-                  research and development excites me deeply. It is the pursuit
-                  of this vision that fuels my dedication, encouraging me to
-                  stay curious, innovative, and collaborative. I aspire to be a
-                  catalyst for positive change, striving to create innovative
-                  solutions that benefit society and foster a brighter future
-                  for all. In this section, you'll gain insight into the values
-                  that guide my decisions and interactions, as well as my
-                  unwavering vision to contribute to humanity through AI
-                  research. Join me as I embark on a journey of discovery,
-                  learning, and making a meaningful impact on the world we live
-                  in.{" "}
+                  In both my personal and professional life, I adhere to core values that shape my journey and future vision.
+                  My values include having a clear and ambitious vision, which serves as a compass to guide me; 
+                  discipline, which ensures consistency and progress; 
+                  and continuous learning, which fosters adaptability and innovation. 
+                  Family support also plays a vital role, providing emotional strength and encouragement.
+                  My future vision is centered on contributing to humanity through technology research, particularly in artificial intelligence (AI). 
+                  I am passionate about exploring AI's potential to solve real-world problems and improve lives. 
+                  My aspiration is to be a catalyst for positive change, creating innovative solutions that benefit society and foster a brighter future.{" "}
                 </p>
               </div>
-              <img src="/ElonMusk.jpeg" alt="Valentina" width="100%" />
+              <div className="col-12 col-lg-7 pt-5">
+                <img src="/ElonMusk.jpeg" alt="Elon Musk" width="100%" />
+              </div>
             </div>
           </div>
         </Tab>
@@ -420,7 +388,7 @@ function Home() {
                     
                 </p>
                 (click on the image to view my blog)
-                <Link href="">
+                <Link href="https://luka-blog.netlify.app" target="_blank">
                 <img className="shadow-lg" src="/luka-blog.png" width="100%"/>
               </Link>
                 </div>
