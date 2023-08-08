@@ -310,7 +310,7 @@ function Home() {
                 </p>
                 <Link href="/game-finder-app">
                   <img
-                    src="./GameSearch.webp"
+                    src="./game-search.webp"
                     alt="game search app image"
                     width="100%"
                     className="rounded rounded-5"
