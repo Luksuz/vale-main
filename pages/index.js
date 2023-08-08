@@ -72,7 +72,7 @@ function Home() {
                   Python developer qualification course at Algebra University,
                   where I honed my skills and knowledge in programming. One of
                   my proudest achievements is the creation of an
-                  <a style={{textDecoration: "none", color: "lightBlue"}} href=""> AI stories generator app</a>, which includes
+                  <a style={{textDecoration: "none", color: "#4477CE"}} href="https://aistories.netlify.app"> AI stories generator app</a>, which includes
                   captivating images to bring stories to life. Alongside this
                   major project, I've worked on various mini projects that
                   showcase my versatility and creativity.
