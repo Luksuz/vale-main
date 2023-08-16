@@ -13,7 +13,7 @@ function Home() {
       <div className="d-flex justify-content-between mb-3">
         <h1
           style={{ textShadow: "2px 2px 2px black" }}
-          className="m-1 display-2 text-shadow-sm"
+          className="m-1 display-3 text-shadow-sm"
         >
           Luka Minđek
         </h1>
@@ -43,7 +43,7 @@ function Home() {
           <a href="https://twitter.com/LuksuzWL">
             <img
               src="../socialsIcons/twitter-icon.png"
-              width="20px"
+              width="22px"
               className="m-1"
               alt="twitter"
             />
@@ -192,7 +192,7 @@ function Home() {
         <Tab eventKey="profile" title="Profile">
           <div className="container mt-5">
             <div className="row d-flex">
-              <div className="col-12 col-lg-5">
+              <div className="col-lg-5 d-none d-lg-block">
                 <img
                   className="img-fluid mb-3 shadow-lg"
                   src="/Luka-childhood.webp"
@@ -201,7 +201,15 @@ function Home() {
                 />
               </div>
               <div className="col-12 col-lg-7">
-                <h1>Early life and Background</h1>
+                <h1 className="mb-4">Early life and Background</h1>
+                <div className="col-12 d-lg-none">
+                <img
+                  className="img-fluid mb-3 shadow-lg"
+                  src="/Luka-childhood.webp"
+                  alt="Luka's childhood photo"
+                  width="100%"
+                />
+              </div>
                 <p className="pt-4">
                   Born and raised in the picturesque town of Sveti Ilija, near
                   Varaždin, Croatia, my early life was marked by resilience and
@@ -236,6 +244,14 @@ function Home() {
             <div className="row">
               <div className="col-12">
                 <h1>Professional Journey and Accomplishments</h1>
+                <div className="col-12 pt-5">
+                <img
+                  src="/technical-drawing.webp"
+                  alt="Technical drawing"
+                  width="100%"
+                  className="img-fluid shadow-lg"
+                />
+              </div>
                 <p className="pt-4">
                   My professional journey has been a testament to the power of
                   determination and self-initiative. While my formal school
@@ -262,14 +278,6 @@ function Home() {
                   days in the manufacturing sector to my decision to pursue a
                   career in Python development.
                 </p>
-              </div>
-              <div className="col-12 pt-5">
-                <img
-                  src="/technical-drawing.webp"
-                  alt="Technical drawing"
-                  width="100%"
-                  className="img-fluid shadow-lg"
-                />
               </div>
             </div>
             <hr />
