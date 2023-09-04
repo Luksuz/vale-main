@@ -310,6 +310,23 @@ function Home() {
           <div className="container mt-5">
           <div className="row">
           <div className="col-12">
+                <h1>GetActive-ai</h1>
+                <p>
+                GetActive-ai is a web application that allows users to generate a personalized workout plan based on their fitness goals and preferences.
+                The app uses a gpt model to calculate the optimal workout plan for the user, based on their conversation with their virtual trainer.
+                </p>
+              </div>
+              <Link href="https://getactive-ai.netlify.app">
+                <img
+                  src="./getactive-ai.webp"
+                  alt="GetActive-ai app image"
+                  width="100%"
+                  className="rounded rounded-5"
+                />
+              </Link>
+            </div>
+          <div className="row">
+          <div className="col-12">
                 <h1>Ai stories generator app</h1>
                 <p>
                 This app is an interactive storytelling platform that allows users to create segmented stories. 
