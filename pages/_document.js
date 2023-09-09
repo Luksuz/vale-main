@@ -5,9 +5,9 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="title" content="Luka Minđek - a fullstack developer"/>
-        <meta name="description" content="Projekti i biografija - Luka Minđek"/>
+        <meta name="description" content="Luka Minđek - projects, skills, and biography"/>
         <meta property="og:title" content="Luka Minđek - a fullstack developer"/>
-        <meta property="og:description" content="Explore the artistic creations and restoration work by Valentina Meštrić, an awarded artist and restorer." />
+        <meta name="og:description" content="Discover the portfolio and skills of a talented fullstack developer. Explore a diverse range of projects, from web and AI deveopmet and witness the expertise of this skilled professional." />
         <meta property="og:image" content="https://evarazdin.hr/upload/publish/389537/qwqwedefftrr_6038feda8d0fe.jpg" />
         <meta property="og:url" content="lukamindek.com" />
         <meta name="keywords" content="developer, programer, fullstack, backend, frontend, luka, minđek, sveti ilija, web, web-stranica, izrada web stranica, web dizajn, AI, umjetna inteligencija"/>
