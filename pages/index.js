@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Skill from "../components/Skill";
 import Tab from "react-bootstrap/Tab";
@@ -338,7 +338,9 @@ function Home() {
                   <div className="col-12">
                     <h1>Projects</h1>
                     <p>
-                      Here are some of the projects I've worked on. Click on the
+                      Here are some of the projects I've worked on. See all 16 of my projects on my <a href="https://Github.com/Luksuz" target="_blank">Github</a> profile.
+                      <br></br>
+                      Click on the
                       image to view the project.
                     </p>
                   </div>
@@ -378,7 +380,7 @@ function Home() {
                       their conversation with their virtual trainer.
                     </p>
                   </div>
-                  <Link href="https://getactive-ai.netlify.app">
+                  <Link href="http://get-active-frontend.s3-website-us-east-1.amazonaws.com">
                     <img
                       src="./getactive-ai.webp"
                       alt="GetActive-ai app image"
@@ -548,7 +550,7 @@ function Home() {
                     <p style={{ color: "gray" }} className="mt-5">
                       Click on the image to view the blog
                     </p>
-                    <Link href="https://luka-blog.netlify.app" target="_blank">
+                    <Link href="http://blog-client-prod.s3-website-us-east-1.amazonaws.com" target="_blank">
                       <img
                         className="shadow-lg"
                         src="/luka-blog.webp"
