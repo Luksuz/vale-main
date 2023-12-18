@@ -95,7 +95,7 @@ function Home() {
                       software engineering and cloud technologies. What sets me
                       apart is my unique journey - I didn't pursue a college
                       education, yet my competence in the field speaks volumes.
-                      Through my unmatched indefatigability and perspicacity,
+                      Through my unmatched perspicacity,
                       i've learned my way around tech. Together with a Python
                       developer diploma and certifications in Google Cloud and
                       AWS, coupled with 16 projects on my{" "}
